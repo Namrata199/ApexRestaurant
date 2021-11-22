@@ -2,11 +2,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApexRestaurant.Repository\ApexRestaurant.Repository.csproj" />
-    <ProjectReference Include="ApexRestaurant.Services.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
 </Project>

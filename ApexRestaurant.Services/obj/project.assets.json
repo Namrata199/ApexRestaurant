@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ApexRestaurant.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ApexRestaurant.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApexRestaurant.Repository.dll": {}
+        }
       }
     }
   },
@@ -172,10 +182,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ApexRestaurant.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ApexRestaurant.Repository/ApexRestaurant.Repository.csproj",
+      "msbuildProject": "../ApexRestaurant.Repository/ApexRestaurant.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ApexRestaurant.Repository >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -202,7 +218,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+              "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
