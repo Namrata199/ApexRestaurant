@@ -8,9 +8,9 @@ namespace ApexRestaurant.Repository
 
         void Insert(T entity);
 
-        void update(T entity);
+        void Update(T entity);
 
-        void delete(T entity);
+        void Delete(T entity);
 
     }
 }
