@@ -10,11 +10,18 @@ namespace ApexRestaurant.Repository
 
     }
     public DbSet<Customer> Customers { get; set; }
-    public DbSet<Customer> Menus { get; set; }
+    public DbSet<Menu> Menus { get; set; }
 
-    public DbSet<Customer> Menu_Items { get; set; }
+    public DbSet<MenuItem> Menu_Items { get; set; }
 
-    public DbSet<Customer> Ref_Staff_Roles { get; set; }
+    public DbSet<RefStaffRole> Ref_Staff_Roles { get; set; }
+
+    public DbSet<Staff> Staffs { get; set; }
+
+    public DbSet<Meal> Meals {get; set;}
+
+    public DbSet<MealDish> MealDishes {get; set;}
+
 
 
 
