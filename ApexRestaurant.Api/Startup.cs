@@ -32,7 +32,7 @@ namespace ApexRestaurant.Api
             GetType().Assembly.FullName);
             ServicesModule.Register(services);
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
 
         }
