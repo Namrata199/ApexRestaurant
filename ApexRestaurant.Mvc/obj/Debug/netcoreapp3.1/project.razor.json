@@ -16,6 +16,21 @@
   "RootNamespace": "ApexRestaurant.Mvc",
   "Documents": [
     {
+      "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Index.cshtml",
+      "TargetPath": "Views\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Create.cshtml",
+      "TargetPath": "Views\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Edit.cshtml",
+      "TargetPath": "Views\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -53,6 +68,16 @@
     {
       "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Update.cshtml",
+      "TargetPath": "Views\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ApexRestaurant\\ApexRestaurant.Mvc\\Views\\Delete.cshtml",
+      "TargetPath": "Views\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
