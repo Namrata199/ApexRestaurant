@@ -1,7 +1,7 @@
 using System;
 namespace ApexRestaurant.Mvc.Models
 {
-    public class Staff
+    public class StaffViewModel
     {
         public int StaffId { get; set; }
         public int  StaffRoleCode { get; set; }

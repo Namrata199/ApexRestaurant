@@ -1,7 +1,7 @@
 using System;
 namespace ApexRestaurant.Mvc.Models
 {
-public class Customer
+public class CustomerViewModel
 {
 public int Id { get; set; }
 

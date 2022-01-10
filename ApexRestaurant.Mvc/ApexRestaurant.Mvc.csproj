@@ -21,4 +21,8 @@
     <PackageReference Include="System.Net.Http.Formatting.dll" Version="5.2.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApexRestaurant.Api\ApexRestaurant.Api.csproj" />
+  </ItemGroup>
+
 </Project>
